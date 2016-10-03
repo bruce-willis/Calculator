@@ -8,18 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CalculatorViewController: UIViewController {
 
+    @IBOutlet weak var expressionLabel: UILabel!
+    
+    func setupDeafault (value : String)
+    {
+        expressionLabel.text = value
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupDeafault(value: "hello it's me")
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 
