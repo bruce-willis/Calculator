@@ -19,7 +19,7 @@ class CalculatorViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupDeafault(value: "hello it's me")
+        setupDeafault(value: "2+2")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
